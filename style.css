@@ -1,0 +1,106 @@
+
+/* Attenuer la luminosité d'une image*/
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+p{
+  font-size: 25px;
+}
+
+/* couleur des elements de la barre de navigation*/
+.navbar-brand,
+.nav-link {
+  color: white !important;
+}
+li{
+  font-size: 20px;
+}
+#people{
+  padding-bottom: 15px;
+}
+#trait{
+  text-align: center;
+  top: 25%;
+  position: absolute;
+  width: 50px;
+  border: 1px solid rgb(6, 46, 6);
+  display: inline-block;
+  margin-left: 46%;
+  margin-bottom: 15px;
+}
+.home {
+  position: relative;
+  height: 550px;
+  background-image: url(img/team.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.home .home-content h1 {
+  margin-bottom: 10px;
+  font-size: 4.5rem;
+}
+
+.home .home-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.bar {
+  position: relative;
+  height: 80px;
+  width: 100%;
+  background-color: rgb(35, 211, 35);
+  color: white;
+}
+
+.trait {
+  width: 50px;
+  border: 1px solid rgb(6, 46, 6);
+  display: inline-block;
+}
+
+.jobs {
+  margin-left: 25px;
+  padding-top: 100px;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.jobs table{
+
+  margin-left: 12%;
+}
+.jobs table th,
+.jobs table td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer {
+  position: relative;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.footer h1{
+    font-size: 1.5rem;
+}
+
+.footer h3{
+    font-size: 1rem;
+}
+
